@@ -1,0 +1,81 @@
+.search-box {
+  position: relative;
+  .container {
+    .row {
+      .col {
+        nav {
+          .tabs-ul {
+            font-size: 11px;
+            position: relative;
+            bottom: 100%;
+            li {
+              padding: 12px 24px;
+              color: #838383;
+              font-weight: bold;
+              letter-spacing: 0.04em;
+              background: rgba(235, 233, 233, 0.644);
+              transition: all 0.2s ease-in-out;
+              &:hover {
+                background: rgba(253, 252, 252, 0.815);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    .row {
+      .col {
+        .tabs-second-ul {
+          ul {
+            span {
+              padding: 2px 10px;
+              background: #01b7f2;
+              color: white;
+            }
+            .in-second-tabs-ul {
+              li {
+                font-size: 13px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .small-ul-div {
+    position: relative;
+    top: -20px;
+  }
+  .small-ul {
+    padding: 12px;
+    position: relative;
+    top: -54px;
+    background: white;
+  }
+}
+
+label {
+  font-size: 11px;
+  color: gray;
+}
+input::placeholder {
+  font-size: 13px;
+  color: gray;
+}
+
+.tab-active {
+  background: white !important;
+  color: #01b7f2 !important;
+}
+
+.second-tab-active {
+  display: block !important;
+  color: #01b7f2 !important;
+}
+
+.under-tabs-active {
+  display: block !important;
+}

@@ -1,0 +1,233 @@
+header {
+  font-size: 11px;
+  line-height: 30px;
+  .first-header-wrapper {
+    background: #01b7f2;
+    height: 30px;
+    .row {
+      .col-3 {
+        .my-account {
+          color: white;
+        }
+        .language {
+          color: white;
+          position: relative;
+          .language-dropdown {
+            background: white;
+            width: 180px;
+            display: none;
+            position: absolute;
+            top: 28px;
+            left: -20px;
+            color: gray;
+            z-index: 99;
+            border: 1px solid #01b7f2;
+            font-weight: bold;
+            li {
+              padding: 0 20px;
+              border: 1px solid #f5f5f5;
+              a {
+                padding: 1px 0px;
+                color: gray;
+                font-size: 11px;
+                display: block;
+                transition: all 0.3s linear;
+              }
+              &:hover {
+                background: #f5f5f5;
+
+                a {
+                  color: #01b7f2;
+                }
+              }
+            }
+          }
+          &:hover {
+            .language-dropdown {
+              display: block;
+            }
+          }
+        }
+      }
+      .col-9 {
+        color: white;
+        .currency {
+          color: white;
+          position: relative;
+          .language-dropdown {
+            background: white;
+            width: 180px;
+            display: none;
+            position: absolute;
+            top: 28px;
+            right: -15px;
+            color: gray;
+            z-index: 99;
+            border: 2px solid #01b7f2;
+            font-weight: bold;
+            li {
+              padding: 0 20px;
+              border: 1px solid #f5f5f5;
+              a {
+                padding: 1px 0px;
+                color: gray;
+                font-size: 11px;
+                display: block;
+                transition: all 0.3s linear;
+              }
+              &:hover {
+                background: #f5f5f5;
+                a {
+                  color: #01b7f2;
+                }
+              }
+            }
+          }
+          &:hover {
+            .language-dropdown {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+  .second-header-wrapper {
+    height: 60px;
+    ul {
+      li {
+        padding: 17px 0;
+        transition: all 0.2s ease-in-out;
+        a {
+          color: gray;
+        }
+        &:hover {
+          a {
+            color: #04afe7;
+          }
+        }
+      }
+      .home {
+        @extend .dropdown;
+      }
+      .HOTELS {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .FLIGHTS {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .CARS {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .CRUISES {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .SHORTCODES {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .TOUR {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+      .BONUS {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -100px;
+        }
+      }
+      .PAGES {
+        @extend .dropdown;
+        .home-dropdown {
+          left: -7px;
+        }
+      }
+    }
+
+    .bras-icon {
+      background: #01b7f2;
+      width: 60px;
+      height: 60px;
+      color: white;
+    }
+
+    .bar {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+ 
+}
+
+// small drop down start
+.small-drop-down {
+  background: #01b7f2;
+  .row {
+    .col {
+      ul {
+        li {
+          display: block;
+          height: 40px;
+          padding: 22px 0;
+          border-bottom: 1px solid #08aae0;
+          a {
+            font-size: 13px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.795);
+          }
+          i {
+            color: rgba(255, 255, 255, 0.795);
+          }
+          &:hover {
+            a {
+              color: white;
+            }
+            i {
+              color: white;
+            }
+          }
+        }
+      }
+      .second-ul {
+        li {
+          color: rgba(255, 255, 255, 0.658);
+          border-bottom: none;
+          position: relative;
+
+          i {
+            font-size: 7px;
+            position: absolute;
+            top: 30px;
+          }
+          a {
+
+            color: rgba(255, 255, 255, 0.658);
+          }
+          &:hover {
+            color: white;
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// small drop down end

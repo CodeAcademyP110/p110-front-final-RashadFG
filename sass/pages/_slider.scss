@@ -1,0 +1,57 @@
+#slider {
+  background: url("../images/holiday-banner1.jpg");
+  background-position: center center;
+  .container-fluid {
+    .row {
+      .col-9 {
+        height: 350px;
+       h1{
+           color:white;
+           letter-spacing: 2px;
+       }
+       h2{
+           color:#fdb714;
+           letter-spacing: 2px;
+       }
+      }
+    }
+  }
+}
+
+.brown {
+  background: #2d3e52;
+  color: white;
+  height: 58px;
+
+  .container {
+    .row {
+      .col-3 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .col-9 {
+        li {
+          font-size: 10px;
+          .pages-li-s {
+            color: white;
+            &:hover {
+              color: #01b7f2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.brown2 {
+  background: #2d3e52;
+  color: white;
+  height: 58px;
+  .row {
+    .col-3 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}

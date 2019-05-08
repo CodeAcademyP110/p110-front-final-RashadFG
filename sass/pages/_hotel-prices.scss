@@ -1,0 +1,34 @@
+#popular-destination {
+  .container-fluid {
+    .container {
+
+      h5 {
+        font-size: 20px;
+      }
+      .span9 {
+        font-size: 10px;
+        color: gray;
+      }
+      .link {
+       a{
+         font-size: 12px;
+       }
+        p {
+          font-size: 10px;
+          color: gray;
+        }
+        i{
+          color:rgb(177, 177, 177)
+        }
+        &:hover {
+          a {
+            color: #01b7f2;
+          }
+          i {
+            color: #01b7f2;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+ @import 'lib/variables';
+ @import 'lib/common';
+ @import 'lib/mixins';
+
+// home page;
+ @import 'home/header';
+ @import 'home/slider';
+ @import 'home/search-box';
+ @import 'home/popular-destination';
+ @import 'home/honeymoon';
+ @import 'home/Did-you-know';
+ @import 'home/goup-cards';
+ @import 'home/footer';
+
+// hostels
+ @import 'hostels/header';
+ @import 'hostels/slider';
+ @import 'hostels/search-box';
+ @import 'hostels/hotels';
+ @import 'hostels/search-hotels';
+ @import 'home/footer';
+
+//  flights
+ @import 'flights/header';
+ @import 'flights/slider';
+ @import 'flights/search-box';
+ @import 'flights/about-fly';
+ @import 'flights/search-hotels';
+ @import 'flights/footer';
+
+//  pages
+ @import 'pages/header';
+ @import 'pages/slider';
+ @import 'pages/search-box';
+ @import 'pages/hotel-prices';
+ @import 'pages/footer';
+
+//  eror
+@import 'eror/eror';
+
+// form-control
+@import 'form-control/form-control';
+
+
+
+
+ 
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+

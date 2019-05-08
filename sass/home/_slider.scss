@@ -1,0 +1,58 @@
+.slider {
+  .row {
+    .col {
+      .wrapper {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+        overflow: hidden;
+        
+        .left {
+          color: rgba(255, 255, 255, 0.582);
+          position: absolute;
+          left: 7%;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 3;
+          &:hover{
+            color: white;
+          }
+        }
+        .right {
+          color: rgba(255, 255, 255, 0.582);
+          position: absolute;
+          right: 7%;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 3;
+          &:hover{
+            color: white;
+          }
+        }
+
+        .slider-ul {
+          width: 500%;
+          position: absolute;
+          left: 0;
+          li {
+            width: 100%;
+            height: 100vh;
+            img {
+              width: 100%;
+                height: 100vh;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// height  100%i sil 
+// iconlarin positiona fikir ver
